@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#visor{
+    border: 10px groove goldenrod;
+    border-radius:10px ;
+    width: 100%;
+    height: 150px;
+}
+div{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.numeros{
+    border: 1px solid black;
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    flex: auto;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.operações{
+    flex-direction: column;
+    border: 1px solid black;
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    flex: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.numeros:hover{
+    background-color: rgb(148, 139, 139);
+}
+.operações:hover{
+    background-color: aqua;
+}
