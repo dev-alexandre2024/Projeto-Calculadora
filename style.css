@@ -7,19 +7,26 @@
     border: 5px solid;
     width:350px;
     border-radius: 10px;
-    height: 350px;
+    height: 550px;
 }
 #visor{
     border: 10px groove goldenrod;
     border-radius:10px ;
-    width: 100%;
+    width: 350px;
     height: 150px;
-    margin-top:0;
+    padding: 10;
 }
 div{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+}
+.neo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .numeros{
     border: 1px solid black;
@@ -27,6 +34,7 @@ div{
     text-align: center;
     flex: auto;
     height: 70px;
+
     width: 70px;
     border-radius: 10px;
     display: flex;
